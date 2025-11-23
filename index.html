@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Denial - School Newspaper</title>
+    <meta name="description" content="The official school newspaper - The Denial">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">The Denial</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="authors.html" class="nav-link">Authors</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Featured/Newest Issue Section -->
+        <section class="featured-issue">
+            <div class="container">
+                <h2 class="section-title">Latest Issue</h2>
+                <div class="issue-card featured">
+                    <div class="issue-header">
+                        <h3>Issue #2 - Current Issue</h3>
+                        <span class="issue-date">Published: April 2025</span>
+                    </div>
+                    <div class="issue-content">
+                        <img src="Issue2_img.png" alt="The Denial Issue 2" class="issue-image">
+                        <div class="issue-text">
+                           <h4>Our Second Issue</h4>
+                                <p>Welcome to Issue 2 of The Denial! This month’s edition brings another round of absurd, over-the-top “news,” from a lunchroom talking ban to the discovery of cryogenically frozen teachers under Zetkov. Enjoy the nonsense!</p>
+                            
+                            <a href="THE DENIAL_ Issue 2.pdf" target="_blank" class="read-more-btn">Read Full Issue (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <p>Scroll down for past issues</p>
+            <div class="scroll-arrow">↓</div>
+        </div>
+
+        <!-- Past Issues Section -->
+        <section class="past-issues">
+            <div class="container">
+                <h2 class="section-title">Past Issues</h2>
+                <div class="issues-grid">
+                    
+                    <div class="issue-card">
+                        <div class="issue-header">
+                            <h3>Issue #1 - First Edition</h3>
+                            <span class="issue-date">Published: November 2024</span>
+                        </div>
+                        <div class="issue-content">
+                            <img src="Issue1_img.png" alt="The Denial Issue 1" class="issue-image">
+                            <div class="issue-text">
+                                <h4>Our Inaugural Issue</h4>
+                                <p>Welcome to the very first issue of The Denial! This historic edition marks the beginning of our school's new student joke newspaper, featuring funny stories...</p>
+                                <a href="THE DENIAL_ Issue 1.pdf" target="_blank" class="read-more-btn">Read Issue (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="issue-card placeholder">
+                        <div class="issue-header">
+                            <h3>More Issues Coming Soon</h3>
+                            <span class="issue-date">Stay tuned!</span>
+                        </div>
+                        <div class="issue-content">
+                            <div class="placeholder-image">
+                                <span>📰</span>
+                            </div>
+                            <div class="issue-text">
+                                <h4>Future Editions</h4>
+                                <p>We're working hard to bring you more engaging content. Check back regularly for new issues featuring student voices, school news, and community stories.</p>
+                                <button class="read-more-btn disabled" disabled>Coming Soon</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> The Denial - School Joke Newspaper. All rights reserved.</p>
+            <p>Contact us: aperez@students.hackleyschool.org | Submit your stories and ideas!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
